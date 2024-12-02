@@ -7,11 +7,13 @@ import Team from './components/main/team'
 import Testimonials from './components/main/testimonials'
 import Contact from './components/main/contact'
 import Footer from './components/footer/footer'
+import Hero from './components/hero/hero'
 
 export default function Home() {
   return (
     <>
       <Navbar />
+      <Hero />
       <Services />
       <Singlecard />
       <Casestudies />

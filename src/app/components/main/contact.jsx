@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import { Space_Grotesk } from 'next/font/google'
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
@@ -9,16 +10,23 @@ import Image from 'next/image'
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], weight: ['300', '500', '700'] });
 export default function Contact() {
     return (
-        <div className={` w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 ${spaceGrotesk.className}`}>
-            <div className="flex flex-col ml-4 sm:flex-row items-start sm:items-center gap-4 mb-8">
-                <div className="inline-flex px-4 py-2 bg-[#B9FF66] border border-black rounded-xl">
-                    <span className="text-black font-medium text-xl">Contact Us</span>
+        <div className={`w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 ${spaceGrotesk.className}`}>
+            <div className={`flex flex-col md:flex-row p-4 ${spaceGrotesk.className}`}>
+                <div className="mb-4 md:mb-0">
+                    <Link
+                        href="#"
+                        className="bg-[#B9FF66] text-black inline-flex md:inline-flex items-center justify-center px-4 py-2 md:px-6 md:py-2 border border-black border-1 rounded-xl text-xl md:text-xl font-medium"
+                    >
+                        Contact Us
+                    </Link>
                 </div>
-                <h1 className="text-xl sm:text-2xl font-medium">
-                    Connect with Us: Let&apos;s Discuss Your<br className="hidden sm:block" /> Digital Marketing Needs
-                </h1>
+                <div className="md:ml-6 mt-4 md:mt-0">
+                    <h1 className="text-base sm:text-base font-medium">
+                        Connect with Us: Let&apos;s Discuss Your<br /> Digital Marketing Needs
+                    </h1>
+                </div>
             </div>
-            <div className="bg-[#F3F3F3] rounded-[32px] p-[50px] sm:p-12 lg:p-[50px]">
+            <div className="bg-[#F3F3F3] mt-12 rounded-[32px] p-4 md:p-[50px] ">
                 <div className="grid lg:grid-cols-2 gap-12">
                     <div className="space-y-6">
                         <RadioGroup className="flex gap-8">

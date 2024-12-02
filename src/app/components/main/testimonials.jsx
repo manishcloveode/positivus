@@ -28,7 +28,7 @@ export default function Testimonials() {
 
     return (
         <>
-            <section className="px-4 md:px-6 lg:px-8 max-w-7xl mx-auto mb-20">
+            <div className="px-4 md:px-6   mx-auto mb-20">
                 <div className={`flex flex-col md:flex-row p-4 md:p-[50px] ${spaceGrotesk.className}`}>
                     <div className="mb-4 md:mb-0">
                         <Link
@@ -44,8 +44,8 @@ export default function Testimonials() {
                         </p>
                     </div>
                 </div>
-                <div className={`bg-[#191A23] h-[450px] p-6 md:p-8 lg:p-0 rounded-[32px] relative max-w-6xl mx-auto ${spaceGrotesk.className}`}>
-                    <div className={`bg-[#191A23] p-6 md:p-8 lg:p-12 rounded-[32px] relative max-w-6xl mx-auto overflow-hidden ${spaceGrotesk.className}`}>
+                <div className={`bg-[#191A23] h-[450px] p-4 md:p-[50px] lg:p-0 rounded-[32px] relative max-w-6xl mx-auto ${spaceGrotesk.className}`}>
+                    <div className={`bg-[#191A23]  md:p-[50px] rounded-[32px] relative max-w-6xl mx-auto overflow-hidden ${spaceGrotesk.className}`}>
                         <div className="flex justify-between relative w-full">
                             <div className="hidden lg:block w-1/3 p-6 bg-[#3D3F46] text-white rounded-[24px] border border-[#B9FF66] lg:-translate-x-1/2 md:-translate-x-1/4">
                                 <p className="text-xs md:text-sm leading-relaxed">
@@ -94,7 +94,7 @@ export default function Testimonials() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </div>
 
         </>
 
