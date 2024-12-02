@@ -9,7 +9,7 @@ export default function Services() {
                 <div className="mb-4 md:mb-0">
                     <Link
                         href="#"
-                        className="ml-2 mb-4 bg-custom-green text-black inline-flex items-center justify-center px-4 py-4 sm:px-6 sm:py-2 border border-black border-1 rounded-xl text-lg sm:text-xl font-medium">
+                        className=" mb-4 bg-custom-green text-black inline-flex items-center justify-center px-4 py-4 sm:px-6 sm:py-2 border border-black border-1 rounded-xl text-lg sm:text-xl font-medium">
                         Services
                     </Link>
                 </div>

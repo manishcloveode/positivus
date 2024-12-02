@@ -6,12 +6,12 @@ export default function Singlecard() {
     return (
         <div className={`p-4 sm:p-6 md:p-8 lg:p-[50px] ${spaceGrotesk.className}`}>
             <div className='bg-[#F8F8F8] rounded-3xl flex flex-col-2 lg:flex-row lg:justify-between overflow-hidden'>
-                <div className='p-6 sm:p-8 md:p-10 lg:p-20 flex flex-col justify-center'>
+                <div className='p-6 sm:p-8 md:p-10 lg:p-10 flex flex-col justify-center'>
                     <h1 className='text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-4'>
                         Let&apos;s make things happen
                     </h1>
                     <p className='text-black text-sm sm:text-base lg:text-lg mb-6'>
-                        Contact us today to learn more about how our digital <br /> marketing services can help your business grow and <br /> succeed online.
+                        Contact us today to learn more about how our digital marketing services can help your business grow and  succeed online.
                     </p>
                     <Link
                         href="#"
@@ -20,11 +20,11 @@ export default function Singlecard() {
                         Get your free proposal
                     </Link>
                 </div>
-                <div className='hidden lg:block w-full h-[350px] w-[450px]'>
+                <div className='hidden lg:block  h-[300px] w-[350px]'>
                     <Image
                         src="/singlecard.png"
-                        height={350}
-                        width={450}
+                        height={300}
+                        width={350}
                         alt="Digital marketing illustration"
                         className='w-full h-auto object-cover lg:h-full'
                     />

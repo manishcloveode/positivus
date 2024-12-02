@@ -41,9 +41,9 @@ export default function Hero() {
                         for success
                     </h2>
                     <p className="pt-[20px] text-sm">
-                        Our digital marketing agency helps businesses <br />
-                        grow and succeed online through a range of <br />
-                        services including SEO, PPC, social media marketing, <br />
+                        Our digital marketing agency helps businesses
+                        grow and succeed online through a range of
+                        services including SEO, PPC, social media marketing,
                         and content creation.
                     </p>
                     <Link
@@ -60,22 +60,23 @@ export default function Hero() {
                         className="w-full h-auto lg:w-[500.46px] lg:h-[400px] "
                     />
                 </div>
-            </div><div className="p-4 lg:p-[50px] lg:mt-[-100px]">
-                <div className="max-w-7xl mx-auto">
-                    <div className="relative">
-                        <div className="relative flex flex-wrap items-center justify-center lg:justify-between gap-8 px-4 lg:px-8 py-6">
-                            {logos.map((logo) => (
-                                <div key={logo.name} className="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
-                                    <Image
-                                        src={logo.src}
-                                        alt={`${logo.name} logo`}
-                                        width={100}
-                                        height={30}
-                                        className="h-6 w-auto object-contain lg:h-8" />
-                                </div>
-                            ))}
-                        </div>
+            </div>
+            <div className="p-4 lg:p-[50px] lg:mt-[-100px] container mx-auto">
+                <div className="container mx-auto">
+
+                    <div className="relative flex flex-wrap  lg:justify-between gap-8 px-4 lg:px-8 py-6">
+                        {logos.map((logo) => (
+                            <div key={logo.name} className="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+                                <Image
+                                    src={logo.src}
+                                    alt={`${logo.name} logo`}
+                                    width={100}
+                                    height={30}
+                                    className="h-6 w-auto object-contain lg:h-8" />
+                            </div>
+                        ))}
                     </div>
+
                 </div>
             </div>
         </>

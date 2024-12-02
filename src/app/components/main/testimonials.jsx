@@ -28,8 +28,8 @@ export default function Testimonials() {
 
     return (
         <>
-            <div className="px-4 md:px-6   mx-auto mb-20">
-                <div className={`flex flex-col md:flex-row p-4 md:p-[50px] ${spaceGrotesk.className}`}>
+            <section className="px-4 sm:px-6 lg:px-12 py-12">
+                <div className={`flex flex-col md:flex-row  md:p-[20px] mb-8 ${spaceGrotesk.className}`}>
                     <div className="mb-4 md:mb-0">
                         <Link
                             href="#"
@@ -44,11 +44,11 @@ export default function Testimonials() {
                         </p>
                     </div>
                 </div>
-                <div className={`bg-[#191A23] h-[450px] p-4 md:p-[50px] lg:p-0 rounded-[32px] relative max-w-6xl mx-auto ${spaceGrotesk.className}`}>
-                    <div className={`bg-[#191A23]  md:p-[50px] rounded-[32px] relative max-w-6xl mx-auto overflow-hidden ${spaceGrotesk.className}`}>
-                        <div className="flex justify-between relative w-full">
+                <div className={`bg-[#191A23] h-[450px]  rounded-[32px] relative  ${spaceGrotesk.className}`}>
+                    <div className={`bg-[#191A23] p-6 md:p-8 rounded-[32px] relative  overflow-hidden ${spaceGrotesk.className}`}>
+                        <div className="flex justify-between mt-[50px] relative w-full">
                             <div className="hidden lg:block w-1/3 p-6 bg-[#3D3F46] text-white rounded-[24px] border border-[#B9FF66] lg:-translate-x-1/2 md:-translate-x-1/4">
-                                <p className="text-xs md:text-sm leading-relaxed">
+                                <p className="text-xs py-2 md:text-sm leading-relaxed">
                                     &quot;{testimonials[0].text}&quot;
                                 </p>
                                 <div className="text-center mt-4">
@@ -94,7 +94,7 @@ export default function Testimonials() {
                         ))}
                     </div>
                 </div>
-            </div>
+            </section>
 
         </>
 

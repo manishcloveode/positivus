@@ -49,7 +49,7 @@ export default function Workprogress() {
                 <div className="flex justify-center md:justify-start mb-4 md:mb-0">
                     <Link
                         href="#"
-                        className="bg-custom-green text-black hidden md:inline-flex items-center justify-center px-4 py-2 md:px-6 md:py-2 border border-black rounded-xl text-lg md:text-2xl font-medium"
+                        className="bg-custom-green text-black  md:inline-flex items-center justify-center px-4 py-2 md:px-6 md:py-2 border border-black rounded-xl text-lg md:text-2xl font-medium"
                     >
                         Our Working Progress
                     </Link>
