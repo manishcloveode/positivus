@@ -20,11 +20,11 @@ export default function Singlecard() {
                         Get your free proposal
                     </Link>
                 </div>
-                <div className='hidden lg:block w-full h-[394px] w-[494px]'>
+                <div className='hidden lg:block w-full h-[350px] w-[450px]'>
                     <Image
                         src="/singlecard.png"
-                        height={394}
-                        width={494}
+                        height={350}
+                        width={450}
                         alt="Digital marketing illustration"
                         className='w-full h-auto object-cover lg:h-full'
                     />

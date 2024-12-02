@@ -11,7 +11,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], weight: ['300', '500', 
 export default function Contact() {
     return (
         <div className={`w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 ${spaceGrotesk.className}`}>
-            <div className={`flex flex-col md:flex-row p-4 ${spaceGrotesk.className}`}>
+            <div className={`flex flex-col md:flex-row p-2  ${spaceGrotesk.className}`}>
                 <div className="mb-4 md:mb-0">
                     <Link
                         href="#"
