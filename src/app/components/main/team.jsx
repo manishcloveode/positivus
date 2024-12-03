@@ -16,7 +16,7 @@ export default function Team() {
                     </Link>
                 </div>
                 <div className="md:ml-6 mt-4 md:mt-0">
-                    <p className="text-sm md:text-base">
+                    <p className="text-lg md:text-lg">
                         Meet the skilled and experienced team behind our <br /> successful digital marketing strategies
                     </p>
                 </div>
